@@ -1,6 +1,6 @@
 {
     "meta": {
-        "version": "3.1.0",
+        "version": "3.2.1",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/shaltoplib.assess.sqaaas/main/.report/assessment_output.json"
     },
     "repository": [
@@ -41,10 +41,10 @@
                                     "name": "QC.Acc pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib git",
                                     "status": "SUCCESS",
                                     "stdout_command": [
-                                        "git rev-parse --is-inside-work-tree"
+                                        "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/2/execution/node/34/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/6/execution/node/34/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/shaltoplib.assess.sqaaas"
@@ -96,7 +96,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 321}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/2/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/6/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/shaltoplib.assess.sqaaas"
@@ -147,7 +147,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 321}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/2/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/6/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/shaltoplib.assess.sqaaas"
@@ -199,7 +199,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 321}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/2/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/6/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/shaltoplib.assess.sqaaas"
@@ -245,10 +245,10 @@
                                     "name": "QC.Doc pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib git",
                                     "status": "SUCCESS",
                                     "stdout_command": [
-                                        "git rev-parse --is-inside-work-tree"
+                                        "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/2/execution/node/52/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/6/execution/node/52/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/shaltoplib.assess.sqaaas"
@@ -287,10 +287,10 @@
                                     "name": "QC.Doc pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib markdownlint",
                                     "status": "FAILED",
                                     "stdout_command": [
-                                        "mdl --json ."
+                                        "mdl --json  ."
                                     ],
                                     "stdout_text": "[{\"filename\":\"./README.md\",\"line\":3,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./README.md\",\"line\":5,\"rule\":\"MD012\",\"aliases\":[\"no-multiple-blanks\"],\"description\":\"Multiple consecutive blank lines\"},{\"filename\":\"./README.md\",\"line\":6,\"rule\":\"MD012\",\"aliases\":[\"no-multiple-blanks\"],\"description\":\"Multiple consecutive blank lines\"},{\"filename\":\"./README.md\",\"line\":3,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"}]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/2/execution/node/61/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/6/execution/node/61/log?consoleFull"
                                 },
                                 "level": "RECOMMENDED",
                                 "build_repo": "https://github.com/eosc-synergy/shaltoplib.assess.sqaaas"
@@ -335,6 +335,15 @@
                 "success_subcriteria": 2
             }
         },
+        "QC.Lic": {
+            "valid": false,
+            "subcriteria": {},
+            "coverage": {
+                "percentage": 0,
+                "total_subcriteria": 0,
+                "success_subcriteria": 0
+            }
+        },
         "QC.Sec": {
             "valid": true,
             "subcriteria": {
@@ -362,10 +371,10 @@
                                     "name": "QC.Sec pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib bandit",
                                     "status": "SUCCESS",
                                     "stdout_command": [
-                                        "bandit -f json --quiet  --confidence-level high --severity-level high --recursive ."
+                                        "bandit -f json --quiet  --confidence-level high --severity-level high --recursive  ."
                                     ],
-                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2024-05-17T07:55:53Z\",\n  \"metrics\": {\n    \"./shaltopLib.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 379,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 379,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/2/execution/node/79/log?consoleFull"
+                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2024-11-20T09:38:01Z\",\n  \"metrics\": {\n    \"./shaltopLib.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 379,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 379,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/6/execution/node/79/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/shaltoplib.assess.sqaaas"
@@ -377,7 +386,7 @@
                             },
                             "data_unstructured": {
                                 "errors": [],
-                                "generated_at": "2024-05-17T07:55:53Z",
+                                "generated_at": "2024-11-20T09:38:01Z",
                                 "metrics": {
                                     "./shaltopLib.py": {
                                         "CONFIDENCE.HIGH": 0,
@@ -449,7 +458,7 @@
                                         "flake8 ."
                                     ],
                                     "stdout_text": "./shaltopLib.py:9:80: E501 line too long (206 > 79 characters)\n./shaltopLib.py:11:80: E501 line too long (139 > 79 characters)\n./shaltopLib.py:36:1: E302 expected 2 blank lines, found 1\n./shaltopLib.py:86:34: E231 missing whitespace after ','\n./shaltopLib.py:87:34: E231 missing whitespace after ','\n./shaltopLib.py:88:25: E231 missing whitespace after ','\n./shaltopLib.py:89:25: E231 missing whitespace after ','\n./shaltopLib.py:92:36: E231 missing whitespace after ','\n./shaltopLib.py:93:28: E231 missing whitespace after ','\n./shaltopLib.py:94:25: E231 missing whitespace after ','\n./shaltopLib.py:95:28: E231 missing whitespace after ','\n./shaltopLib.py:96:29: E231 missing whitespace after ','\n./shaltopLib.py:96:46: E262 inline comment should start with '# '\n./shaltopLib.py:96:80: E501 line too long (182 > 79 characters)\n./shaltopLib.py:97:29: E231 missing whitespace after ','\n./shaltopLib.py:98:29: E231 missing whitespace after ','\n./shaltopLib.py:99:29: E231 missing whitespace after ','\n./shaltopLib.py:100:30: E231 missing whitespace after ','\n./shaltopLib.py:101:30: E231 missing whitespace after ','\n./shaltopLib.py:102:28: E231 missing whitespace after ','\n./shaltopLib.py:103:28: E231 missing whitespace after ','\n./shaltopLib.py:104:29: E231 missing whitespace after ','\n./shaltopLib.py:112:1: E302 expected 2 blank lines, found 1\n./shaltopLib.py:112:16: E231 missing whitespace after ','\n./shaltopLib.py:118:39: E231 missing whitespace after ','\n./shaltopLib.py:119:45: E231 missing whitespace after ','\n./shaltopLib.py:125:1: E302 expected 2 blank lines, found 1\n./shaltopLib.py:125:20: E231 missing whitespace after ','\n./shaltopLib.py:131:38: E231 missing whitespace after ','\n./shaltopLib.py:132:47: E231 missing whitespace after ','\n./shaltopLib.py:135:9: F821 undefined name 'rint'\n./shaltopLib.py:140:1: E303 too many blank lines (3)\n./shaltopLib.py:141:13: E225 missing whitespace around operator\n./shaltopLib.py:142:18: E231 missing whitespace after ':'\n./shaltopLib.py:143:19: E231 missing whitespace after ':'\n./shaltopLib.py:144:18: E231 missing whitespace after ':'\n./shaltopLib.py:145:19: E231 missing whitespace after ':'\n./shaltopLib.py:146:18: E231 missing whitespace after ':'\n./shaltopLib.py:147:19: E231 missing whitespace after ':'\n./shaltopLib.py:148:19: E231 missing whitespace after ':'\n./shaltopLib.py:149:18: E231 missing whitespace after ':'\n./shaltopLib.py:150:18: E231 missing whitespace after ':'\n./shaltopLib.py:151:18: E231 missing whitespace after ':'\n./shaltopLib.py:152:18: E231 missing whitespace after ':'\n./shaltopLib.py:153:18: E231 missing whitespace after ':'\n./shaltopLib.py:154:18: E231 missing whitespace after ':'\n./shaltopLib.py:156:26: E231 missing whitespace after ','\n./shaltopLib.py:158:1: E302 expected 2 blank lines, found 1\n./shaltopLib.py:158:18: E231 missing whitespace after ','\n./shaltopLib.py:164:30: E231 missing whitespace after ','\n./shaltopLib.py:166:1: W293 blank line contains whitespace\n./shaltopLib.py:168:13: E303 too many blank lines (2)\n./shaltopLib.py:169:18: E225 missing whitespace around operator\n./shaltopLib.py:169:31: E231 missing whitespace after ','\n./shaltopLib.py:169:42: E231 missing whitespace after ','\n./shaltopLib.py:169:52: E231 missing whitespace after ','\n./shaltopLib.py:169:60: E231 missing whitespace after ','\n./shaltopLib.py:178:1: W293 blank line contains whitespace\n./shaltopLib.py:180:1: W293 blank line contains whitespace\n./shaltopLib.py:181:1: W293 blank line contains whitespace\n./shaltopLib.py:182:5: E303 too many blank lines (2)\n./shaltopLib.py:182:39: E231 missing whitespace after ','\n./shaltopLib.py:183:39: E231 missing whitespace after ','\n./shaltopLib.py:184:39: E231 missing whitespace after ','\n./shaltopLib.py:185:40: E231 missing whitespace after ','\n./shaltopLib.py:186:40: E231 missing whitespace after ','\n./shaltopLib.py:187:40: E231 missing whitespace after ','\n./shaltopLib.py:187:53: W291 trailing whitespace\n./shaltopLib.py:188:1: W293 blank line contains whitespace\n./shaltopLib.py:189:5: E265 block comment should start with '# '\n./shaltopLib.py:196:1: W293 blank line contains whitespace\n./shaltopLib.py:209:1: W293 blank line contains whitespace\n./shaltopLib.py:210:29: E231 missing whitespace after ','\n./shaltopLib.py:211:41: E231 missing whitespace after ','\n./shaltopLib.py:211:43: E231 missing whitespace after ','\n./shaltopLib.py:211:52: E231 missing whitespace after ','\n./shaltopLib.py:211:69: E231 missing whitespace after ','\n./shaltopLib.py:211:71: E231 missing whitespace after ','\n./shaltopLib.py:211:80: E501 line too long (109 > 79 characters)\n./shaltopLib.py:211:80: E231 missing whitespace after ','\n./shaltopLib.py:211:97: E231 missing whitespace after ','\n./shaltopLib.py:211:99: E231 missing whitespace after ','\n./shaltopLib.py:212:1: W293 blank line contains whitespace\n./shaltopLib.py:213:19: E222 multiple spaces after operator\n./shaltopLib.py:215:1: E302 expected 2 blank lines, found 1\n./shaltopLib.py:222:36: E231 missing whitespace after ','\n./shaltopLib.py:223:40: E231 missing whitespace after ','\n./shaltopLib.py:224:40: E231 missing whitespace after ','\n./shaltopLib.py:235:23: F821 undefined name 'filename'\n./shaltopLib.py:241:25: E231 missing whitespace after ','\n./shaltopLib.py:242:28: E231 missing whitespace after ','\n./shaltopLib.py:242:43: E231 missing whitespace after ','\n./shaltopLib.py:242:47: E231 missing whitespace after ','\n./shaltopLib.py:243:32: E231 missing whitespace after ','\n./shaltopLib.py:243:47: E231 missing whitespace after ','\n./shaltopLib.py:243:51: E231 missing whitespace after ','\n./shaltopLib.py:244:26: E231 missing whitespace after ','\n./shaltopLib.py:245:21: E231 missing whitespace after ','\n./shaltopLib.py:246:24: E231 missing whitespace after ','\n./shaltopLib.py:263:5: F401 'matplotlib.ticker.LinearLocator' imported but unused\n./shaltopLib.py:273:80: E501 line too long (80 > 79 characters)\n./shaltopLib.py:274:5: F841 local variable 'surf' is assigned to but never used\n./shaltopLib.py:274:29: E231 missing whitespace after ','\n./shaltopLib.py:275:24: E128 continuation line under-indented for visual indent\n./shaltopLib.py:280:1: E302 expected 2 blank lines, found 1\n./shaltopLib.py:282:1: W191 indentation contains tabs\n./shaltopLib.py:282:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:283:1: W191 indentation contains tabs\n./shaltopLib.py:283:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:284:1: W191 indentation contains tabs\n./shaltopLib.py:284:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:285:1: W191 indentation contains tabs\n./shaltopLib.py:285:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:287:1: W191 indentation contains tabs\n./shaltopLib.py:287:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:288:1: W191 indentation contains tabs\n./shaltopLib.py:288:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:289:1: W191 indentation contains tabs\n./shaltopLib.py:289:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:294:5: F401 'matplotlib.ticker.LinearLocator' imported but unused\n./shaltopLib.py:299:5: E303 too many blank lines (2)\n./shaltopLib.py:303:5: F841 local variable 'surf' is assigned to but never used\n./shaltopLib.py:303:29: E231 missing whitespace after ','\n./shaltopLib.py:303:39: E231 missing whitespace after ','\n./shaltopLib.py:304:24: E128 continuation line under-indented for visual indent\n./shaltopLib.py:311:21: E231 missing whitespace after ','\n./shaltopLib.py:313:1: W191 indentation contains tabs\n./shaltopLib.py:313:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:313:80: E501 line too long (81 > 79 characters)\n./shaltopLib.py:315:1: W191 indentation contains tabs\n./shaltopLib.py:315:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:316:1: W191 indentation contains tabs\n./shaltopLib.py:316:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:317:1: W191 indentation contains tabs\n./shaltopLib.py:317:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:320:1: W191 indentation contains tabs\n./shaltopLib.py:320:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:321:1: W191 indentation contains tabs\n./shaltopLib.py:321:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:322:1: W191 indentation contains tabs\n./shaltopLib.py:322:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:327:5: F401 'matplotlib.ticker.LinearLocator' imported but unused\n./shaltopLib.py:332:5: E303 too many blank lines (2)\n./shaltopLib.py:335:6: E225 missing whitespace around operator\n./shaltopLib.py:335:15: E231 missing whitespace after ','\n./shaltopLib.py:335:17: E231 missing whitespace after ','\n./shaltopLib.py:335:30: E261 at least two spaces before inline comment\n./shaltopLib.py:335:80: E501 line too long (266 > 79 characters)\n./shaltopLib.py:337:80: E501 line too long (224 > 79 characters)\n./shaltopLib.py:339:14: E225 missing whitespace around operator\n./shaltopLib.py:339:23: E225 missing whitespace around operator\n./shaltopLib.py:339:25: E261 at least two spaces before inline comment\n./shaltopLib.py:339:26: E262 inline comment should start with '# '\n./shaltopLib.py:340:80: E501 line too long (83 > 79 characters)\n./shaltopLib.py:341:14: E225 missing whitespace around operator\n./shaltopLib.py:341:18: E225 missing whitespace around operator\n./shaltopLib.py:343:29: E231 missing whitespace after ','\n./shaltopLib.py:343:41: E231 missing whitespace after ','\n./shaltopLib.py:343:54: E231 missing whitespace after ','\n./shaltopLib.py:343:80: E501 line too long (106 > 79 characters)\n./shaltopLib.py:343:85: E231 missing whitespace after ','\n./shaltopLib.py:345:29: E231 missing whitespace after ','\n./shaltopLib.py:345:41: E231 missing whitespace after ','\n./shaltopLib.py:345:71: E231 missing whitespace after ','\n./shaltopLib.py:345:80: E501 line too long (137 > 79 characters)\n./shaltopLib.py:345:85: E231 missing whitespace after ','\n./shaltopLib.py:345:116: E231 missing whitespace after ','\n./shaltopLib.py:347:58: E261 at least two spaces before inline comment\n./shaltopLib.py:347:80: E501 line too long (121 > 79 characters)\n./shaltopLib.py:356:18: E231 missing whitespace after ','\n./shaltopLib.py:356:23: E231 missing whitespace after ','\n./shaltopLib.py:358:1: W191 indentation contains tabs\n./shaltopLib.py:358:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:358:80: E501 line too long (81 > 79 characters)\n./shaltopLib.py:360:1: W191 indentation contains tabs\n./shaltopLib.py:360:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:361:1: W191 indentation contains tabs\n./shaltopLib.py:361:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:362:1: W191 indentation contains tabs\n./shaltopLib.py:362:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:363:80: E501 line too long (83 > 79 characters)\n./shaltopLib.py:366:1: W191 indentation contains tabs\n./shaltopLib.py:366:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:367:1: W191 indentation contains tabs\n./shaltopLib.py:367:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:368:1: W191 indentation contains tabs\n./shaltopLib.py:368:1: E101 indentation contains mixed spaces and tabs\n./shaltopLib.py:373:5: F401 'matplotlib.ticker.LinearLocator' imported but unused\n./shaltopLib.py:377:80: E501 line too long (224 > 79 characters)\n./shaltopLib.py:383:10: E225 missing whitespace around operator\n./shaltopLib.py:383:19: E231 missing whitespace after ','\n./shaltopLib.py:383:21: E231 missing whitespace after ','\n./shaltopLib.py:383:34: E261 at least two spaces before inline comment\n./shaltopLib.py:383:80: E501 line too long (215 > 79 characters)\n./shaltopLib.py:386:18: E225 missing whitespace around operator\n./shaltopLib.py:386:27: E225 missing whitespace around operator\n./shaltopLib.py:386:29: E261 at least two spaces before inline comment\n./shaltopLib.py:386:30: E262 inline comment should start with '# '\n./shaltopLib.py:386:80: E501 line too long (82 > 79 characters)\n./shaltopLib.py:387:80: E501 line too long (87 > 79 characters)\n./shaltopLib.py:388:18: E225 missing whitespace around operator\n./shaltopLib.py:388:22: E225 missing whitespace around operator\n./shaltopLib.py:390:33: E231 missing whitespace after ','\n./shaltopLib.py:390:45: E231 missing whitespace after ','\n./shaltopLib.py:390:58: E231 missing whitespace after ','\n./shaltopLib.py:390:80: E501 line too long (110 > 79 characters)\n./shaltopLib.py:390:89: E231 missing whitespace after ','\n./shaltopLib.py:392:33: E231 missing whitespace after ','\n./shaltopLib.py:392:45: E231 missing whitespace after ','\n./shaltopLib.py:392:75: E231 missing whitespace after ','\n./shaltopLib.py:392:80: E501 line too long (141 > 79 characters)\n./shaltopLib.py:392:89: E231 missing whitespace after ','\n./shaltopLib.py:392:120: E231 missing whitespace after ','\n./shaltopLib.py:394:62: E261 at least two spaces before inline comment\n./shaltopLib.py:394:80: E501 line too long (125 > 79 characters)\n./shaltopLib.py:406:1: E303 too many blank lines (3)\n./shaltopLib.py:406:24: E231 missing whitespace after ','\n./shaltopLib.py:409:5: F401 'matplotlib.ticker.LinearLocator' imported but unused\n./shaltopLib.py:414:8: E225 missing whitespace around operator\n./shaltopLib.py:414:35: E231 missing whitespace after ','\n./shaltopLib.py:415:8: E225 missing whitespace around operator\n./shaltopLib.py:415:35: E231 missing whitespace after ','\n./shaltopLib.py:418:10: E225 missing whitespace around operator\n./shaltopLib.py:418:19: E231 missing whitespace after ','\n./shaltopLib.py:418:21: E231 missing whitespace after ','\n./shaltopLib.py:424:6: E225 missing whitespace around operator\n./shaltopLib.py:424:15: E231 missing whitespace after ','\n./shaltopLib.py:424:17: E231 missing whitespace after ','\n./shaltopLib.py:424:30: E261 at least two spaces before inline comment\n./shaltopLib.py:424:80: E501 line too long (266 > 79 characters)\n./shaltopLib.py:426:80: E501 line too long (224 > 79 characters)\n./shaltopLib.py:429:14: E225 missing whitespace around operator\n./shaltopLib.py:429:23: E225 missing whitespace around operator\n./shaltopLib.py:429:25: E261 at least two spaces before inline comment\n./shaltopLib.py:429:26: E262 inline comment should start with '# '\n./shaltopLib.py:430:80: E501 line too long (83 > 79 characters)\n./shaltopLib.py:431:14: E225 missing whitespace around operator\n./shaltopLib.py:431:18: E225 missing whitespace around operator\n./shaltopLib.py:433:80: E501 line too long (103 > 79 characters)\n./shaltopLib.py:433:80: E231 missing whitespace after ','\n./shaltopLib.py:435:29: E231 missing whitespace after ','\n./shaltopLib.py:435:41: E231 missing whitespace after ','\n./shaltopLib.py:435:54: E231 missing whitespace after ','\n./shaltopLib.py:435:80: E501 line too long (119 > 79 characters)\n./shaltopLib.py:435:85: E231 missing whitespace after ','\n./shaltopLib.py:435:108: E231 missing whitespace after ','\n./shaltopLib.py:437:5: F841 local variable 'surf' is assigned to but never used\n./shaltopLib.py:437:29: E231 missing whitespace after ','\n./shaltopLib.py:437:41: E231 missing whitespace after ','\n./shaltopLib.py:437:70: E231 missing whitespace after ','\n./shaltopLib.py:437:80: E501 line too long (146 > 79 characters)\n./shaltopLib.py:437:83: E231 missing whitespace after ','\n./shaltopLib.py:437:94: E231 missing whitespace after ','\n./shaltopLib.py:437:125: E231 missing whitespace after ','\n./shaltopLib.py:440:24: E231 missing whitespace after ','\n./shaltopLib.py:440:28: E231 missing whitespace after ','\n./shaltopLib.py:440:32: E231 missing whitespace after ','\n./shaltopLib.py:440:39: E231 missing whitespace after ','\n./shaltopLib.py:440:51: E231 missing whitespace after ','\n./shaltopLib.py:451:1: E303 too many blank lines (4)\n./shaltopLib.py:451:16: E231 missing whitespace after ','\n./shaltopLib.py:454:5: F401 'matplotlib.ticker.LinearLocator' imported but unused\n./shaltopLib.py:459:8: E225 missing whitespace around operator\n./shaltopLib.py:459:35: E231 missing whitespace after ','\n./shaltopLib.py:460:8: E225 missing whitespace around operator\n./shaltopLib.py:460:35: E231 missing whitespace after ','\n./shaltopLib.py:463:10: E225 missing whitespace around operator\n./shaltopLib.py:463:19: E231 missing whitespace after ','\n./shaltopLib.py:463:21: E231 missing whitespace after ','\n./shaltopLib.py:469:6: E225 missing whitespace around operator\n./shaltopLib.py:469:15: E231 missing whitespace after ','\n./shaltopLib.py:469:17: E231 missing whitespace after ','\n./shaltopLib.py:469:30: E261 at least two spaces before inline comment\n./shaltopLib.py:469:80: E501 line too long (266 > 79 characters)\n./shaltopLib.py:471:80: E501 line too long (224 > 79 characters)\n./shaltopLib.py:474:14: E225 missing whitespace around operator\n./shaltopLib.py:474:23: E225 missing whitespace around operator\n./shaltopLib.py:474:25: E261 at least two spaces before inline comment\n./shaltopLib.py:474:26: E262 inline comment should start with '# '\n./shaltopLib.py:475:80: E501 line too long (83 > 79 characters)\n./shaltopLib.py:476:14: E225 missing whitespace around operator\n./shaltopLib.py:476:18: E225 missing whitespace around operator\n./shaltopLib.py:478:80: E501 line too long (103 > 79 characters)\n./shaltopLib.py:478:80: E231 missing whitespace after ','\n./shaltopLib.py:480:5: F841 local variable 'surf' is assigned to but never used\n./shaltopLib.py:480:29: E231 missing whitespace after ','\n./shaltopLib.py:480:41: E231 missing whitespace after ','\n./shaltopLib.py:480:54: E231 missing whitespace after ','\n./shaltopLib.py:480:80: E501 line too long (119 > 79 characters)\n./shaltopLib.py:480:85: E231 missing whitespace after ','\n./shaltopLib.py:480:108: E231 missing whitespace after ','\n./shaltopLib.py:483:5: E303 too many blank lines (2)\n./shaltopLib.py:485:24: E231 missing whitespace after ','\n./shaltopLib.py:485:28: E231 missing whitespace after ','\n./shaltopLib.py:485:32: E231 missing whitespace after ','\n./shaltopLib.py:485:39: E231 missing whitespace after ','\n./shaltopLib.py:485:51: E231 missing whitespace after ','\n./shaltopLib.py:492:1: W293 blank line contains whitespace\n./shaltopLib.py:493:1: E302 expected 2 blank lines, found 1\n./shaltopLib.py:495:5: F401 'matplotlib.cm' imported but unused\n./shaltopLib.py:496:5: F401 'matplotlib.ticker.LinearLocator' imported but unused\n./shaltopLib.py:497:5: F401 'scipy.ndimage' imported but unused\n./shaltopLib.py:498:5: F401 'numpy as np' imported but unused\n./shaltopLib.py:499:1: W293 blank line contains whitespace\n./shaltopLib.py:501:23: E231 missing whitespace after ','\n./shaltopLib.py:501:34: E231 missing whitespace after ','\n./shaltopLib.py:501:37: E231 missing whitespace after ','\n./shaltopLib.py:502:23: E231 missing whitespace after ','\n./shaltopLib.py:502:34: E231 missing whitespace after ','\n./shaltopLib.py:502:37: E231 missing whitespace after ','\n./shaltopLib.py:503:23: E231 missing whitespace after ','\n./shaltopLib.py:503:34: E231 missing whitespace after ','\n./shaltopLib.py:503:37: E231 missing whitespace after ','\n./shaltopLib.py:507:1: W391 blank line at end of file",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/2/execution/node/88/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/6/execution/node/88/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/shaltoplib.assess.sqaaas"
@@ -502,7 +511,7 @@
                                         "pytest  --json-report  --json-report-indent 4"
                                     ],
                                     "stdout_text": "============================= test session starts ==============================\nplatform linux -- Python 3.9.17, pytest-7.1.3, pluggy-1.2.0\nrootdir: /sqaaas-build/pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib\nplugins: metadata-3.0.0, json-report-1.5.0\ncollected 0 items\n\n--------------------------------- JSON report ----------------------------------\nreport saved to: .report.json\n============================ no tests ran in 0.01s =============================",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/2/execution/node/97/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/6/execution/node/97/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/shaltoplib.assess.sqaaas"
@@ -555,7 +564,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/2/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/6/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/shaltoplib.assess.sqaaas"
@@ -598,7 +607,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/2/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/6/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/shaltoplib.assess.sqaaas"
@@ -641,7 +650,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/2/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/shaltoplib.assess.sqaaas/job/main/6/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/shaltoplib.assess.sqaaas"
@@ -684,64 +693,6 @@
                 "total_subcriteria": 1,
                 "success_subcriteria": 0
             }
-        },
-        "QC.Lic": {
-            "valid": false,
-            "subcriteria": {
-                "QC.Lic01": {
-                    "description": "Is code licensed to be freely used, modified and distributed by others?",
-                    "valid": false,
-                    "hint": "<p>Your source code repository shall be distributed under an open source license for this subcriterion to pass successfully. Be sure to have a license file present in the code repository matching the name <code>LICENSE</code> with optional extensions (depending on the format used): <code>[.md|.rst|.txt]</code>.</p><p>Valid licenses are any of those approved either by the <a href=\"https://opensource.org/licenses\" target=\"_blank\">Open Source Initiative</a> and/or the Free Software Foundation <a href=\"https://www.gnu.org/licenses/license-list.html\" target=\"_blank\"></a>. You can also check the <a href=\"https://choosealicense.com/\" target=\"_blank\">choosealicense.com</a> site</p>",
-                    "evidence": [
-                        {
-                            "valid": false,
-                            "message": "Error raised when validating tool <licensee> with validator plugin <licensee>: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'"
-                        }
-                    ],
-                    "required_for_next_level_badge": true
-                },
-                "QC.Lic01.1": {
-                    "description": "Is LICENSE file placed in the root path of the code repository?",
-                    "valid": false,
-                    "hint": "Most social coding platforms require the license file to placed in the root path of the code repository, so it is a good practice to use this location by default. Allowed file names are <code>LICENSE</code>, <code>LICENSE.md</code>, <code>LICENSE.rst</code>, <code>LICENSE.txt</code>",
-                    "evidence": [
-                        {
-                            "valid": false,
-                            "message": "Error raised when validating tool <licensee> with validator plugin <licensee>: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'"
-                        }
-                    ],
-                    "required_for_next_level_badge": true
-                },
-                "QC.Lic02": {
-                    "description": "Does the code use a license approved by Open Source Initiative?",
-                    "valid": false,
-                    "hint": "The <a href=\"https://opensource.org/\" target=\"_blank\">Open Source Initiative (OSI)</a> sets out the requirements for software to be legally declared as Open Source. The license in use shall be in the list of <a href=\"https://opensource.org/license-list.html\" target=\"_blank\">OSI-approved licenses</a> for this criterion to be successful",
-                    "evidence": [
-                        {
-                            "valid": false,
-                            "message": "Error raised when validating tool <licensee> with validator plugin <licensee>: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'"
-                        }
-                    ],
-                    "required_for_next_level_badge": true
-                },
-                "QC.Lic02.1": {
-                    "description": "Does the code use an Open Source Initiative's popular-recognized license?",
-                    "valid": false,
-                    "hint": "The Open Source Initiative (OSI) sets out the requirements for software to be legally declared as Open Source. OSI provides a list of popular licenses that shall match most of the demands. The license in use shall be in the list of <a href=\"https://opensource.org/license-list.html\" target=\"_blank\">OSI popular licenses</a> for this criterion to be successful",
-                    "evidence": [
-                        {
-                            "valid": false,
-                            "message": "Error raised when validating tool <licensee> with validator plugin <licensee>: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'"
-                        }
-                    ],
-                    "required_for_next_level_badge": true
-                }
-            },
-            "coverage": {
-                "percentage": 0,
-                "total_subcriteria": 4,
-                "success_subcriteria": 0
-            }
         }
     },
     "badge": {
@@ -749,8 +700,8 @@
             "criteria": {
                 "bronze": {
                     "to_fulfill": [
-                        "QC.Acc",
                         "QC.Lic",
+                        "QC.Acc",
                         "QC.Doc"
                     ],
                     "missing": [
@@ -763,17 +714,17 @@
                 },
                 "silver": {
                     "to_fulfill": [
-                        "QC.Met",
-                        "QC.Doc",
-                        "QC.Lic",
+                        "QC.Ver",
                         "QC.Acc",
-                        "QC.Ver"
+                        "QC.Lic",
+                        "QC.Doc",
+                        "QC.Met"
                     ],
                     "missing": [
-                        "QC.Met",
                         "QC.Ver",
+                        "QC.Lic",
                         "QC.Doc",
-                        "QC.Lic"
+                        "QC.Met"
                     ],
                     "fulfilled": [
                         "QC.Acc"
@@ -781,26 +732,26 @@
                 },
                 "gold": {
                     "to_fulfill": [
-                        "QC.Met",
-                        "QC.Uni",
-                        "QC.Doc",
-                        "QC.Lic",
-                        "QC.Sty",
-                        "QC.Acc",
                         "QC.Ver",
-                        "QC.Sec"
+                        "QC.Acc",
+                        "QC.Sty",
+                        "QC.Uni",
+                        "QC.Lic",
+                        "QC.Doc",
+                        "QC.Sec",
+                        "QC.Met"
                     ],
                     "missing": [
-                        "QC.Met",
-                        "QC.Uni",
-                        "QC.Doc",
-                        "QC.Lic",
+                        "QC.Ver",
                         "QC.Sty",
-                        "QC.Ver"
+                        "QC.Uni",
+                        "QC.Lic",
+                        "QC.Doc",
+                        "QC.Met"
                     ],
                     "fulfilled": [
-                        "QC.Acc",
-                        "QC.Sec"
+                        "QC.Sec",
+                        "QC.Acc"
                     ]
                 }
             },
