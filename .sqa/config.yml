@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.0.1
+      branch: main
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib:
       branch: main
@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib git:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-orange-donkey.sh
-        container: qc.acc_clammy-myrtle-malamute
+        - /usr/bin/env sh .sqa/script.crabby-wisteria-bonobo.sh
+        container: qc.acc_breezy-saffron-booby
   QC.Doc:
     repos:
       pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-lemon-burmese.sh
-        container: qc.doc_nerdy-periwinkle-raccoon
+        - /usr/bin/env sh .sqa/script.fuzzy-xanthic-impala.sh
+        container: qc.doc_sleazy-alizarin-jackal
       pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib git:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-ecru-lemur.sh
-        container: qc.doc_bumpy-olive-ragdoll
+        - /usr/bin/env sh .sqa/script.smelly-asparagus-mongoose.sh
+        container: qc.doc_squirrely-red-whippet
       pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-puce-termite.sh
-        container: qc.doc_crappy-cream-dolphin
+        - /usr/bin/env sh .sqa/script.scummy-sangria-blue.sh
+        container: qc.doc_snippy-olivine-barracuda
   QC.Lic:
     repos:
       pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-chestnut-spitz.sh
-        container: qc.lic_snazzy-cobalt-drever
+        - /usr/bin/env sh .sqa/script.hasty-corn-spoonbill.sh
+        container: qc.lic_stinky-amaranth-vole
   QC.Sec:
     repos:
       pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-lavender-gar.sh
-        container: qc.sec_scaly-celadon-pig
+        - /usr/bin/env sh .sqa/script.blurry-bronze-bison.sh
+        container: qc.sec_homey-taupe-snake
   QC.Sty:
     repos:
       pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-orchid-numbat.sh
-        container: qc.sty_skinny-champagne-toad
+        - /usr/bin/env sh .sqa/script.randy-myrtle-grouse.sh
+        container: qc.sty_snippy-thistle-chihuahua
   QC.Uni:
     repos:
       pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-olive-quokka.sh
-        container: qc.uni_cheeky-malachite-albatross
+        - /usr/bin/env sh .sqa/script.pretty-lime-giraffe.sh
+        container: qc.uni_homey-vermilion-alligator
   QC.Ver:
     repos:
       pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-asparagus-bulldog.sh
-        container: qc.ver_chewy-black-chinchilla
+        - /usr/bin/env sh .sqa/script.snappy-dandelion-millipede.sh
+        container: qc.ver_lanky-violet-reindeer
 timeout: 5400

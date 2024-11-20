@@ -5,5 +5,5 @@
 
 (
 cd pss-gitlab.math.univ-paris-diderot.fr/dralucas/shaltoplib &&
-    mdl --json .
+    bandit -f json --quiet  --confidence-level high --severity-level high --recursive  .
 )
